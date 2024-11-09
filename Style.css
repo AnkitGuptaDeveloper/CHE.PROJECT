@@ -1,0 +1,88 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#navbar{
+    height: 100px;
+}
+#logo{
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: green;
+}
+span{
+    font-size: 40px;
+    color: chocolate; 
+}
+a{
+    text-decoration: none;
+    color: green;
+    margin: 50px;
+}
+.header-text{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#one{
+    color: chocolate;
+}
+p{
+    padding: 5px;
+    margin: 5px;
+}
+.star {
+    font-size: 24px;
+    color: gold;
+}
+#Install{
+    height: 40px;
+    width: 260px;
+    padding-top: 15px;
+    color: black;
+    background-color: chocolate;
+    text-align: center;
+    border-radius: 50px;
+}
+#Image {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh
+        
+}
+#Image2{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;      
+}
+img {
+    height: 500px; 
+    width: 900px; 
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.info-box {
+    border: 1px solid #007BFF;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #E7F1FF; 
+    margin: 20px 0;
+}   
+.info-box h2 {
+    color: #0056b3; 
+ }
+footer{
+    height: 60px;
+    background-color: chocolate;
+    text-align: center;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+ }

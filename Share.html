@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Share Button</title>
+  <style>
+    body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+}
+
+.share-container {
+  position: relative;
+  display: inline-block;
+}
+
+.share-button {
+  padding: 10px 20px;
+  background-color:chocolate;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.share-options {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.share-container:hover .share-options {
+  display: block;
+}
+
+.share-option {
+  display: block;
+  padding: 10px;
+  color:black;
+  text-decoration: none;
+}
+
+.share-option:hover {
+  background-color: #f1f1f1;
+}
+
+  </style>
+</head>
+<body>
+
+  <div class="share-container">
+    <button class="share-button">Click me!</button>
+    <div class="share-options">
+      <a href="#" class="share-option">Facebook</a>
+      <a href="#" class="share-option">Twitter</a>
+      <a href="#" class="share-option">WhatsApp</a>
+    </div>
+  </div>
+
+</body>
+</html>
